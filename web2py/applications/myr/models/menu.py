@@ -11,7 +11,7 @@ response.menu = [
     (T('View Blockchain'), False, "#", [
         (T('Process'), False, URL('blockchain', 'view',args="blockchain_path_process"), []),
         (T('Presentation'), False, URL('blockchain', 'view',args="blockchain_path_presentation"), []),
-        (T('Data'), False, URL('blockchain', 'create_study',args="blockchain_path_data"), [])
+        (T('Data'), False, URL('blockchain', 'view',args="blockchain_path_data"), [])
         ])
 ]
 
